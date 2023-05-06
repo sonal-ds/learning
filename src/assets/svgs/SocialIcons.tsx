@@ -54,4 +54,52 @@ export const YouTube = (
       clipRule="evenodd"
     />
   </svg>
+  
 );
+export const mapPin = (
+  props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
+) => (
+  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" {...props}>
+  <g id="Group_218" data-name="Group 218" transform="translate(-1175.818 -373.852)">
+    <path id="Icon_awesome-map-marker-alt" data-name="Icon awesome-map-marker-alt" d="M18.942,56.14C2.965,32.568,0,30.149,0,21.486A21.3,21.3,0,0,1,21.111,0,21.3,21.3,0,0,1,42.222,21.486c0,8.663-2.965,11.082-18.942,34.654a2.614,2.614,0,0,1-4.339,0Zm2.17-25.7a8.954,8.954,0,1,0-8.8-8.953A8.875,8.875,0,0,0,21.111,30.439Z" transform="translate(1175.818 373.852)" fill="#488487"/>
+    <path id="Path_247" data-name="Path 247" d="M15.5,0A15.5,15.5,0,1,1,0,15.5,15.5,15.5,0,0,1,15.5,0Z" transform="translate(1181.429 380)" fill="#024b58"/>
+  </g>
+</svg>
+  
+);
+export const phone = (
+  props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
+) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+  <path id="Icon_metro-phone" data-name="Icon metro-phone" d="M13.571,12.856c-1,1-1,2-2,2s-2-1-3-2-2-2-2-3,1-1,2-2-2-4-3-4-3,3-3,3c0,2,2.055,6.055,4,8s6,4,8,4c0,0,3-2,3-3s-3-4-4-3Z" transform="translate(-2.571 -3.856)" fill="#3a356d"/>
+</svg> 
+);
+export const addressicon = (
+  props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
+) => (
+<svg xmlns="http://www.w3.org/2000/svg" width="12.977" height="17" viewBox="0 0 12.977 17">
+  <path id="Icon_awesome-map-marker-alt" data-name="Icon awesome-map-marker-alt" d="M5.822,16.657C.911,9.663,0,8.945,0,6.375A6.432,6.432,0,0,1,6.488,0a6.432,6.432,0,0,1,6.488,6.375c0,2.57-.911,3.288-5.822,10.282A.82.82,0,0,1,5.822,16.657Zm.667-7.626a2.657,2.657,0,1,0-2.7-2.656A2.68,2.68,0,0,0,6.488,9.031Z" fill="#3a356d"/>
+</svg>  
+);
+export const watch = (
+  props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
+) => (
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <path id="Icon_material-watch-later" data-name="Icon material-watch-later" d="M11,3a8,8,0,1,0,8,8A8.024,8.024,0,0,0,11,3Zm3.36,11.36L10.2,11.8V7h1.2v4.16L15,13.32Z" transform="translate(-3 -3)" fill="#3a356d"/>
+</svg>
+);
+export const cluster = (
+  props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
+) => (
+<svg xmlns="http://www.w3.org/2000/svg"  height="48" viewBox="0 0 48 48" width="48" fill="currentColor" {...props}><path d="M0 0h48v48H0z" fill="none"/>
+<g>
+	<path d="M24,4c-7.732,0-14,6.268-14,14c0,14,14,26,14,26s14-12,14-26C38,10.268,31.732,4,24,4z M24,41.26
+		C20.65,37.967,12,28.451,12,18c0-6.617,5.383-12,12-12s12,5.383,12,12C36,28.452,27.349,37.968,24,41.26z"/>
+	<circle cx="24" cy="18" r="2"/>
+</g>
+</svg>
+
+);
+
+
+

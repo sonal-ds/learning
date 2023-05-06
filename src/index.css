@@ -9,3 +9,6 @@
 .section {
   @apply mt-8 mb-16;
 }
+.result.active{
+  @apply bg-pink-primary; 
+}
